@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- [新功能] 新闻搜索新增 Context.dev 渠道（`CONTEXT_DEV_API_KEYS`，支持多 Key），位于 Tavily 之后，支持 freshness 时效过滤与 URL 内嵌日期提取；同步接入 Web 设置、Actions 每日分析与多语文档。
+
 - [文档] 三语 README 分别使用 Modelflare 简体中文、英文及繁体中文赞助横幅，保持现有版式与链接。
 
 - [改进] Modelflare 只需 MODELFLARE_KEY，后端、Web、筛选及 Actions 统一自动识别渠道并补齐默认地址与模型，保留显式 YAML／渠道配置优先级和高级渠道 Key 兼容。

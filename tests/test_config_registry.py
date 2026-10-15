@@ -370,6 +370,7 @@ class TestSettingsHelpMetadata(unittest.TestCase):
         "TUSHARE_TOKEN",
         "REALTIME_SOURCE_PRIORITY",
         "TAVILY_API_KEYS",
+        "CONTEXT_DEV_API_KEYS",
         "NEWS_STRATEGY_PROFILE",
         "WECHAT_WEBHOOK_URL",
         "EMAIL_RECEIVERS",

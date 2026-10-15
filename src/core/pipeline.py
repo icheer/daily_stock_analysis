@@ -303,6 +303,7 @@ class StockAnalysisPipeline:
             self.search_service = SearchService(
                 bocha_keys=self.config.bocha_api_keys,
                 tavily_keys=self.config.tavily_api_keys,
+                context_dev_keys=self.config.context_dev_api_keys,
                 anspire_keys=self.config.anspire_api_keys,
                 brave_keys=self.config.brave_api_keys,
                 serpapi_keys=self.config.serpapi_keys,

@@ -237,6 +237,7 @@ journalctl -u stock-analyzer -f
 | `AIHUBMIX_KEY` | - | AIHubMix 一 Key 多模型（推荐） |
 | `SERPAPI_API_KEYS` | - | SerpAPI 实时金融新闻搜索（推荐） |
 | `TAVILY_API_KEYS` | - | Tavily 新闻搜索（可选） |
+| `CONTEXT_DEV_API_KEYS` | - | Context.dev 新闻搜索（可选） |
 | `MINIMAX_API_KEYS` | - | MiniMax 搜索（可选） |
 
 ---
@@ -441,6 +442,7 @@ git push -u origin main
 | `STOCK_LIST` | 自选股列表，如 `600519,300750` | ✅ |
 | `SERPAPI_API_KEYS` | SerpAPI Key | 推荐 |
 | `TAVILY_API_KEYS` | Tavily 搜索 API Key | 可选 |
+| `CONTEXT_DEV_API_KEYS` | Context.dev 搜索 API Key | 可选 |
 | `BOCHA_API_KEYS` | 博查搜索 API Key | 可选 |
 | `BRAVE_API_KEYS` | Brave Search API Key | 可选 |
 | `MINIMAX_API_KEYS` | MiniMax Coding Plan Web Search | 可选 |
